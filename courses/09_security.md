@@ -47,6 +47,7 @@ Il est possible de restreindre l'accès à des actions en fonction du rôle poss
 Chaque utilisateur possède au moins un `ROLE_USER`. Un utilisateur anonyme possède le rôle `IS_ANONYMOUS`.
 
 > Le nouveau système d'authentification n'accorde plus le role d'anonyme au visiteur non-connecté. Ces sessions sont maintenant traité comme non-authentifié. Lorsque vous utiliserez `isGranted()`, le résultat sera toujours `false` vu que cette session sera considéré comme un utilisateur ne possédant aucun privilège.
+> 
 > Vous devrez utiliser le nouvel attribut de sécurité `PUBLIC_ACCESS`, dans `access_control` du fichier de configuration des sécurités, pour autoriser les utilisateurs non-authentifié à accèder aux routes (comme la page de connexion).
 
 Il est possible avec avec une annotation de rediriger l'utilisateur vers la page de login selon l'exemple suivant.
