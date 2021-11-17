@@ -15,7 +15,6 @@ Pour pouvoir suivre ce cours, certaines connaissances peuvent être nécessaire 
 - Les bases de la Programmation Orientée Objet : [PHP POO](https://github.com/CHIRON-Courses/PHP-POO)
 - Les bases du SQL
 - Les bases du HTML
-- Les bases du CSS
 
 Si ces connaissances n'ont pas été acquises au préalablement, elles devront l'être durant ce cours.
 
@@ -23,4 +22,4 @@ Si ces connaissances n'ont pas été acquises au préalablement, elles devront l
 
 ## Support de cours
 
-[Sommaire](courses/00_sommaire.md)
+[Wiki](https://github.com/CHIRON-Courses/Symfony/wiki)
